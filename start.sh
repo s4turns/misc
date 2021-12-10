@@ -10,5 +10,3 @@ sudo apt autoremove -y
 
 echo "[!] That shit is fuckin READY MUDDA FUCKA!"
 echo ".:WiTH L0VE FR0M BLCKND CREW:."
-
-done
