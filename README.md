@@ -1,2 +1,2 @@
 # misc
-misc shat
+misc scripts and such for starup boxes 🍻
