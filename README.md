@@ -1,2 +1,2 @@
 # misc
-misc scripts and such for starup boxes 🍻
+misc scripts and such for startup boxes 🍻
