@@ -8,6 +8,6 @@ export NVM_DIR="$HOME/.nvm"
 
 echo What version do you want to install?
 
-read ver
+read ver1
 
-nvm install $ver
+nvm install $ver1
