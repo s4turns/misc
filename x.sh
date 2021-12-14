@@ -1,5 +1,3 @@
-tcpdump -r dump.191158.cap |less
-
 interface=ens3
 dumpdir=/var/log
 
