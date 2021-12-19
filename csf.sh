@@ -12,7 +12,7 @@ sh install.sh &
 perl /etc/csf/csftest.pl &
 sh /usr/local/csf/bin/remove_apf_bfd.sh &
 wait
-sudo nano /etc/csf/csf.conf &
+sudo nano /etc/csf/csf.conf
 wait
 csf -r
 echo CSF installed!
