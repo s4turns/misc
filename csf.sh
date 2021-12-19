@@ -1,12 +1,18 @@
 #!/bin/bash
 
 # CSF Fire wall
-sudo apt install perl
-sudo wget http://download.configserver.com/csf.tgz
+sudo apt update
+sudo apt-get install libwww-perl liblwp-protocol-https-perl libgd-graph-perl -y
+cd /usr/src
+rm -fv csf.tgz
+wget https://download.configserver.com/csf.tgz
 tar -xzf csf.tgz
 cd csf
-sudo sh install.sh &
+sh install.sh &
+perl /etc/csf/csftest.pl &
+sh /usr/local/csf/bin/remove_apf_bfd.sh &
 wait
 sudo nano /etc/csf/csf.conf
+
 echo Dont forget to csf -r
 echo CSF installed!
