@@ -5,10 +5,8 @@ sudo apt install perl
 sudo wget http://download.configserver.com/csf.tgz
 tar -xzf csf.tgz
 cd csf
-sudo sh install.sh
+sudo sh install.sh &
 wait
 sudo nano /etc/csf/csf.conf
-wait
-csf -r
-
+echo Dont forget to csf -r
 echo CSF installed!
