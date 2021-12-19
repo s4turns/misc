@@ -16,3 +16,4 @@ sudo nano /etc/csf/csf.conf
 wait
 csf -r
 echo CSF installed!
+echo ".:WiTH L0VE FR0M BLCKND CREW:."
