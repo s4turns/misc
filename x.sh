@@ -1,3 +1,5 @@
+#!/bin/bash
+
 interface=ens3
 dumpdir=/var/log
 
