@@ -2,11 +2,13 @@
 
 sudo apt update
 sudo apt full-upgrade
+sudo apt install jq
 sudo apt install git build-essential cmake screen -y
 git clone --branch "v0.2.2" https://github.com/ptitSeb/box86
 sudo dpkg --add-architecture armhf
 sudo apt update
 sudo apt install gcc-arm-linux-gnueabihf libc6:armhf libncurses5:armhf libstdc++6:armhf -y
+wait
 cd ~/box86
 mkdir build
 cd build
