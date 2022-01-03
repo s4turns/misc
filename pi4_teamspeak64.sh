@@ -20,6 +20,7 @@ sudo systemctl restart systemd-binfmt
 cd ~
 wget https://files.teamspeak-services.com/releases/server/3.13.3/teamspeak3-server_linux_x86-3.13.3.tar.bz2
 tar -xvpf teamspeak3-server_linux_x86-3.13.3.tar.bz2
+rm teamspeak3-server_linux_x86*
 cd teamspeak3-server_linux_x86
 touch .ts3server_license_accepted
 screen -S teamspeak ./ts3server
